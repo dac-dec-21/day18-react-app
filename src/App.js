@@ -1,3 +1,12 @@
+/**
+ * class => is a reserved keywrod in JavaScript.
+ * class => className
+ * @returns
+ */
 export default function App() {
-  return <h1 class="bg-primary">hello world</h1>;
+  return (
+    <div>
+      <div className="bg-primary text-light p-4">Hello World</div>
+    </div>
+  );
 }
