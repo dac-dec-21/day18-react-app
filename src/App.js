@@ -1,3 +1,3 @@
 export default function App() {
-  return <div>hello world</div>;
+  return <h1 class="bg-primary">hello world</h1>;
 }
